@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Happy Birthday</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- =========================
+         INTRO / FIRST SCREEN
+    ========================== -->
+
+    <main class="intro" id="intro">
+      <canvas id="c"></canvas>
+
+      <div class="glow glow-one"></div>
+      <div class="glow glow-two"></div>
+
+      <section class="intro-content">
+        <div class="small-line">✦</div>
+
+        <h1 id="birthdayTitle">Happy Birthday</h1>
+
+        <p id="birthdayText">یه سورپرایز کوچیک برات آماده شده...</p>
+
+        <button id="enterButton">
+          بازش کن
+          <span>♡</span>
+        </button>
+      </section>
+    </main>
+
+    <!-- =========================
+         MAIN WEBSITE
+    ========================== -->
+
+    <div class="website" id="website">
+      <!-- Navigation -->
+
+      <header class="navbar">
+        <div class="logo">Happy Birthday</div>
+
+        <nav>
+          <a href="#home">خانه</a>
+          <a href="#surprise">سورپرایز</a>
+          <a href="#letter">نامه</a>
+          <a href="#memory">یادگاری</a>
+          <a href="#flowers">گل‌ها</a>
+          <a href="#cake">کیک</a>
+        </nav>
+
+        <button class="music-button" id="musicButton" aria-label="پخش موسیقی">
+          ♫
+        </button>
+      </header>
+
+      <!-- =========================
+             HOME
+        ========================== -->
+
+      <section class="home section" id="home">
+        <div class="home-particles"></div>
+
+        <div class="home-content">
+          <span class="eyebrow"> A little surprise </span>
+
+          <h2>برای یک روز قشنگ</h2>
+
+          <p>بعضی آدم‌ها خودشون دلیل قشنگ‌تر شدن روزها هستن.</p>
+
+          <a href="#surprise" class="main-button">
+            سورپرایز رو ببین
+            <span>♡</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- =========================
+             SURPRISE
+        ========================== -->
+
+      <section class="section surprise" id="surprise">
+        <div class="section-title">
+          <span>✦</span>
+
+          <h2>یک سورپرایز کوچیک</h2>
+
+          <p>چند چیز کوچیک که با عشق آماده شدن.</p>
+        </div>
+
+        <div class="surprise-grid">
+          <a href="#letter" class="surprise-card">
+            <div class="card-icon">💌</div>
+
+            <h3>یک نامه</h3>
+
+            <p>چند تا حرف که دلم می‌خواست امروز بهت بگم.</p>
+
+            <span class="card-arrow"> ← </span>
+          </a>
+
+          <a href="#flowers" class="surprise-card">
+            <div class="card-icon">🌷</div>
+
+            <h3>یک دسته گل</h3>
+
+            <p>فقط برای اینکه امروز کمی قشنگ‌تر بشه.</p>
+
+            <span class="card-arrow"> ← </span>
+          </a>
+
+          <a href="#cake" class="surprise-card">
+            <div class="card-icon">🎂</div>
+
+            <h3>یک کیک</h3>
+
+            <p>یه آرزو کن و شمع رو فوت کن.</p>
+
+            <span class="card-arrow"> ← </span>
+          </a>
+        </div>
+      </section>
+
+      <!-- =========================
+             LETTER
+        ========================== -->
+
+      <section class="section letter-section" id="letter">
+        <div class="letter-wrapper">
+          <div class="letter-decoration">♡</div>
+
+          <article class="letter">
+            <span class="letter-label"> A little letter </span>
+
+            <h2>برای تو 🌷</h2>
+
+            <div class="letter-text">
+              <p>فاطره قشنگم، 🌷</p>
+
+              <p>
+                امروز شروع یه فصل تازه از زندگیته؛ فصلی که امیدوارم پر از اتفاقای خوب، لبخندهای واقعی و لحظه‌هایی باشه که همیشه با خوشحالی به یادشون بیاری.
+
+آرزو می‌کنم توی سال جدید زندگیت، به چیزایی که از ته دل می‌خوای نزدیک‌تر بشی، مسیرت پر از فرصت‌های قشنگ باشه و حتی روزهای معمولی زندگیت هم دلیل کوچیکی برای خوشحال بودن داشته باشن.
+
+امیدوارم همیشه آدم‌هایی کنارت باشن که حضورت رو ارزشمند بدونن و روزهایی رو تجربه کنی که بیشتر از همیشه به زندگی و آینده‌ات امیدوار بشی.
+
+امروز بهونه‌ایه برای آرزو کردن بهترین‌ها برای تو؛ برای آرامشت، موفقیتت و تمام اتفاقای خوبی که امیدوارم در انتظارت باشن.
+
+به امید سالی پر از خاطره‌های شیرین، لبخندهای ماندگار و آرزوهایی که یکی‌یکی به حقیقت تبدیل می‌شن. 💗
+              </p>
+
+              <p>با کلی عشق و آرزوی خوب برای تو 🌷</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- =========================
+             MEMORY / PHOTO
+        ========================== -->
+
+      <section class="section memory" id="memory">
+        <div class="memory-content">
+          <div class="memory-photo">
+            <img src="photo.jpg" width="100" height="350" alt="" />
+
+            <div class="photo-glow"></div>
+          </div>
+
+          <div class="memory-text">
+            <span> One beautiful memory </span>
+
+            <h2>از این کوچولوی ناز تا دختر قشنگ امروز</h2>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+             FLOWERS
+        ========================== -->
+
+      <section class="section flowers" id="flowers">
+        <div class="section-title">
+          <span>🌷</span>
+
+          <h2>فقط برای تو</h2>
+
+          <p>یه دسته گل کوچیک، برای یه آدم قشنگ.</p>
+        </div>
+
+        <div class="bouquet">
+          <div class="flower flower-1">🌷</div>
+
+          <div class="flower flower-2">🌸</div>
+
+          <div class="flower flower-3">🌷</div>
+
+          <div class="flower flower-4">🌸</div>
+
+          <div class="flower flower-5">🌷</div>
+
+          <div class="leaves">🌿 🌿 🌿</div>
+        </div>
+      </section>
+
+      <!-- =========================
+             CAKE
+        ========================== -->
+
+      <section class="section cake-section" id="cake">
+        <div class="cake-area">
+          <div class="cake-message" id="cakeMessage">آرزو کن ✨</div>
+
+          <div class="cake">
+            <div class="candle">
+              <div class="flame" id="flame"></div>
+
+              <div class="wick"></div>
+            </div>
+
+            <div class="cake-top"></div>
+
+            <div class="cake-body">
+              <div class="cream cream-one"></div>
+              <div class="cream cream-two"></div>
+              <div class="cream cream-three"></div>
+            </div>
+
+            <div class="cake-bottom"></div>
+          </div>
+
+          <button class="blow-button" id="blowButton">شمع رو فوت کن</button>
+
+          <p class="wish-result" id="wishResult"></p>
+        </div>
+      </section>
+
+      <!-- Footer -->
+
+      <footer>
+        <span> Made with ♡ </span>
+      </footer>
+    </div>
+
+    <!-- =========================
+         AUDIO
+    ========================== -->
+
+    <audio id="backgroundMusic" loop preload="auto">
+      <source
+        src="Happy Birthday - Arabic remix dj sonami (320).mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
